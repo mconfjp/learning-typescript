@@ -1,0 +1,8 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mconfjp/learning-typescript.git",
+  "author": "hiroki-morita-a-lvgs <hiroki.morita.a@leverages.jp>",
+  "license": "MIT"
+}
