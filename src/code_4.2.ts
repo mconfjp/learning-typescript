@@ -19,7 +19,7 @@ type Ingredient = {
     amount: '大さじ１'
   }
   
-  soySauceWithTypeAnnotation.amount.length;
+//   soySauceWithTypeAnnotation.amount.length;
   
   
   
@@ -32,7 +32,7 @@ type Ingredient = {
   amount_let = Math.random() > 0.5
     ? "大さじ１"
     : 1;
-  amount_let.length;
+//   amount_let.length;
   
   amount_let = '大さじ１';
   amount_let.length;
@@ -41,3 +41,17 @@ type Ingredient = {
   
   const amount_type: amountType = '大さじ１'
   amount.length;
+
+
+//   過剰プロパティを初期値以外で渡すやつ
+
+const existingObject = {
+    name: '醤油',
+    amount: '大さじ１',
+    aji: '美味しい'
+}
+
+const extraObjectButOk: Ingredient = existingObject;
+
+// extraObjectButOk.aji;
+// 味なくなるんや！
